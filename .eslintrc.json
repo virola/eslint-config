@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "globals": {},
+  "extends": [
+    "airbnb-base"
+  ],
+  "settings": {
+    "import/resolver": {
+      "extensions": [ ".js", ".vue", ".json" ]
+    }
+  },
+  "rules": {
+    "no-debugger": 1,
+    "eqeqeq": 0,
+    "max-len": 0,
+    "no-under": 0
+  }
+}

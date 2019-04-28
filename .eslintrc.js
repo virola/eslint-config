@@ -64,6 +64,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'eqeqeq': 0, // 不需要强制使用全等
     'max-len': 0,
-    "no-under": 0, // 不允许混合使用运算符
+    'no-under': 0, // 不允许混合使用运算符
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   }
 };
